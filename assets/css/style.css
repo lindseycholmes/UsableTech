@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 /*---------------------------------------------------
     LESS Elements 0.9.1
   ---------------------------------------------------
@@ -8470,31 +8471,39 @@ a.badge:focus {
  * Fonts
  */
 .proxima-nova-light {
-  font-family: 'Proxima Nova Light';
+  font-family: 'Montserrat';
+  font-weight: 400;
 }
 .proxima-nova-light-italic {
-  font-family: 'Proxima Nova Light Italic';
+  font-family: 'Montserrat';
+  font-weight: 400;
   font-style: italic;
 }
 .proxima-nova-regular {
-  font-family: 'Proxima Nova Regular';
+  font-family: 'Montserrat';
+  font-weight: 400;
 }
 .proxima-nova-regular-italic {
-  font-family: 'Proxima Nova Regular Italic';
+  font-family: 'Montserrat';
+  font-weight: 400;
   font-style: italic;
 }
 .proxima-nova-semibold {
-  font-family: 'Proxima Nova SemiBold';
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 .proxima-nova-semibold-ialic {
-  font-family: 'Proxima Nova SemiBold Ialic';
+  font-family: 'Montserrat';
+  font-weight: 700;
   font-style: italic;
 }
 .proxima-nova-bold {
-  font-family: 'Proxima Nova Bold';
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 .proxima-nova-bold-italic {
-  font-family: 'Proxima Nova Bold Italic';
+  font-family: 'Montserrat';
+  font-weight: 700;
   font-style: italic;
 }
 /* ====================== */
@@ -8532,7 +8541,7 @@ body {
 body {
   font-weight: normal;
   font-size: 100%;
-  font-family: 'Proxima Nova Regular', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   line-height: 1.625;
   color: #333333;
   background-color: #f9f9f9;
@@ -8549,7 +8558,8 @@ h4,
 h5,
 h6 {
   margin: 0.8125px 0;
-  font-family: 'Proxima Nova SemiBold';
+  font-family: 'Montserrat';
+  font-weight: 700;
   color: #333333;
   line-height: 1.625;
 }
@@ -8559,7 +8569,8 @@ h3.head-alt,
 h4.head-alt,
 h5.head-alt,
 h6.head-alt {
-  font-family: 'Proxima Nova Light';
+  font-family: 'Montserrat';
+  font-weight: 400;
   color: #ffffff;
 }
 h1 a,
@@ -8608,7 +8619,8 @@ p {
   margin: 0;
   margin-bottom: 20px;
   margin-bottom: 1.25rem;
-  font-family: 'Proxima Nova Light';
+  font-family: 'Montserrat';
+  font-weight: 400;
 }
 p img {
   margin: 0;
@@ -8706,15 +8718,18 @@ sub {
 }
  .italic,
 em {
-  font-family: 'Proxima Nova Light Italic';
+  font-family: 'Montserrat';
+  font-weight: 400;
   font-style: italic;
 }
 .bold,
 strong {
-  font-family: 'Proxima Nova SemiBold';
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 .bold-extra {
-  font-family: 'Proxima Nova Bold';
+  font-family: 'Montserrat';
+  font-weight: 700;
   color: #000000;
 }
 .small,
@@ -8771,7 +8786,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  font-family: 'Proxima Nova SemiBold';
+  font-family: 'Montserrat';
   margin-bottom: 20px;
   margin-bottom: 1.25rem;
   padding: 10px 37px;
@@ -8823,7 +8838,7 @@ input[type="button"].full-width {
   text-align: center;
 }
 .button-alt {
-  font-family: 'Proxima Nova SemiBold';
+  font-family: 'Montserrat';
   margin-bottom: 20px;
   margin-bottom: 1.25rem;
   padding: 10px 37px;
@@ -8871,7 +8886,7 @@ input[type="button"].full-width {
   text-align: center;
 }
 .button-white {
-  font-family: 'Proxima Nova SemiBold';
+  font-family: 'Montserrat';
   margin-bottom: 20px;
   margin-bottom: 1.25rem;
   padding: 10px 37px;
@@ -8957,7 +8972,7 @@ select {
   border-radius: 0.125rem;
   font-size: 13px;
   font-size: 0.8125rem;
-  font-family: 'Proxima Nova Regular', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   color: #f0f0f0;
   margin: 0;
   width: 210px;
@@ -9210,7 +9225,8 @@ input[type="checkbox"] {
 .site-header a {
   font-size: 17px;
   font-size: 1.0625rem;
-  font-family: 'Proxima Nova Light';
+  font-family: 'Montserrat';
+  font-weight: 400;
   color: #333333;
   padding: 2px 0;
   padding: 0.125rem 0;
@@ -9329,7 +9345,8 @@ input[type="checkbox"] {
 .site-footer {
   min-height: 346px;
   min-height: 21.625rem;
-  font-family: 'Proxima Nova Light';
+  font-family: 'Montserrat';
+  font-weight: 400;
   font-size: 12px;
   font-size: 0.75rem;
 }
@@ -9355,7 +9372,8 @@ input[type="checkbox"] {
   padding-top: 3.75rem;
   padding-bottom: 40px;
   padding-bottom: 2.5rem;
-  font-family: 'Proxima Nova Regular';
+  font-family: 'Montserrat';
+  font-weight: 400;
   text-transform: uppercase;
 }
 .site-footer .footer-upper .footer-title:after {
@@ -9551,7 +9569,8 @@ input[type="checkbox"] {
   margin-bottom: 1.875rem;
 }
 .side-head {
-  font-family: 'Proxima Nova SemiBold';
+  font-family: 'Montserrat';
+  font-weight: 700;
   font-size: 12px;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -9621,7 +9640,8 @@ input[type="checkbox"] {
   margin-top: 1.5rem;
 }
 .team-gallery .thumbnail p {
-  font-family: 'Proxima Nova Light Italic';
+  font-family: 'Montserrat';
+  font-weight: 400;
   font-style: italic;
   color: #898989;
   font-size: 14px;
@@ -9649,7 +9669,8 @@ input[type="checkbox"] {
   margin-bottom: 0;
 }
 .blog-posts .post .post-title {
-  font-family: 'Proxima Nova Light';
+  font-family: 'Montserrat';
+  font-weight: 400;
 }
 .blog-posts .post .post-title a {
   color: #000000;
